@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #3d3d3d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+}
+
+.header a {
+    color: white;
+    margin: 0px 3rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
+.home {
+    width: 100%;
+    height: 600px;
+    background: url("../img/image3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.superHero {
+    width: 100%;
+    height: 600px;
+    background: url("../img//img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.villanos{
+    width: 100%;
+    height: 600px;
+    background: url("../img//img2.jpg");
+    background-size: cover;
+}
